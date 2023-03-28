@@ -74,7 +74,7 @@ ul {
 }
 
 .info {
-
+    font-family: 'Roboto', sans-serif;
 }
 
 .rando {
@@ -82,22 +82,35 @@ ul {
     font-weight: 800;
     color: #1F2937;
     text-align: center;
-    border: solid 5px green;
+    padding: 2rem;
 }
 
 .cards {
-    border: solid 5px yellow;
     display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .card {
-    border: solid 5px black;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ill {
-
+    border: solid 5px #3882f6;
+    border-radius: 12px;
+    height: 5rem;
+    width: 5rem;
+    margin: auto;
 }
 
 .subtext {
-
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+    width: 5rem;
+    margin-bottom: 2rem;
 }
