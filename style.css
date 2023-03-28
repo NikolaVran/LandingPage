@@ -78,15 +78,20 @@ ul {
 }
 
 .rando {
-
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    border: solid 5px green;
 }
 
 .cards {
-
+    border: solid 5px yellow;
+    display: flex;
 }
 
 .card {
-
+    border: solid 5px black;
 }
 
 .ill {
