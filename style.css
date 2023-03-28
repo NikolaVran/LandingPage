@@ -29,3 +29,36 @@ ul {
     font-size: 18px;
     margin-right: 1rem;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    align-items: flex-start;
+}
+
+.h1 {
+    font-size: 48px;
+    color: #F9faf8;
+}
+
+.h2{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hbutton{
+    background-color: #3882f6;
+    border: none;
+    color: #E5E7EB;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.header {
+    display: flex;
+}
