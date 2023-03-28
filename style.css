@@ -114,3 +114,20 @@ ul {
     width: 5rem;
     margin-bottom: 2rem;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 2rem;
+}
+
+.text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author{
+    text-align: right;
+    font-weight: 900;
+    margin-right: 2rem;
+}
