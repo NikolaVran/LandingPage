@@ -1,0 +1,30 @@
+.header {
+   display: flex;
+   border: 5px solid black;
+   background-color: #1F2937;
+}
+
+.headerlogo {
+    color: #F9FAF8;
+    border: 5px solid RED;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    border: 5px solid blue;
+}
+
+a{
+    text-decoration: none;
+    border: 5px solid green;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+}
