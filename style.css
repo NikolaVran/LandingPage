@@ -133,21 +133,36 @@ ul {
 }
 
 .call{
-
+    background-color: #3882f6;
+    margin: 5rem;
+    padding: 2rem;
+    border-radius: 12px;
+    display: flex;
 }
 
 .ccontainer{
-
+    display: flex;
+    flex-direction: column;
 }
 
-.chead{
-
+.chead {
+    color:#E5E7EB;
+    font-size: larger;
+    font-weight: 900;
 }
 
 .csub {
-
+    color:#E5E7EB;
+    font-size: smaller;
 }
 
 .cbutton {
-    
+    border: solid #e5e7eb 2px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-left: auto;
 }
