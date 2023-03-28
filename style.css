@@ -1,5 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -60,6 +63,7 @@ ul {
 .h2{
     color: #E5E7EB;
     font-size: 18px;
+    padding-bottom: 1rem;
 }
 
 .hbutton{
@@ -168,5 +172,9 @@ ul {
 }
 
 .footer {
-    
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
 }
